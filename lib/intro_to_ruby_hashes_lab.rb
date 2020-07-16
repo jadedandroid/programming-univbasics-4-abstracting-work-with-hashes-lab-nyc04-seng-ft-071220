@@ -1,12 +1,12 @@
 def my_hash_creator(key, value)
     hash = {}
-    hash[:key] = value
+    hash[:name] = value
     hash
 end
 
 def read_from_hash(hash, key)
    if hash[:key]
-      hash[:key]
+      return hash[:key]
     else
       nil
     end
